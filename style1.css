@@ -1,0 +1,59 @@
+body {
+    background-color: #ECF0F1;
+    background-image: url(images/trans33.png)
+}
+.stage {
+    border: 4px solid #0B0B3B;
+    padding: 4px;
+    margin: 15px;
+    border-radius: 24px;
+    color: #FAFAFA;
+    font: 45px 'Niconne',cursive;
+    background-color: #2ECCFA;
+    background-image: url(images/trans33.png);
+    text-align: center;
+    text-shadow: 2px 2px #FF0000;
+}
+.concept {
+    background-color: #C8F7C5;
+    border: 4px solid #38610B;
+    padding: 4px;
+    margin: 9px;
+    border-radius: 20px;
+    color: black;
+    font-family: "Bell MT";
+    font-weight: 400;
+}
+.concept-title {
+    text-align: center;
+    text-decoration: underline;
+    font: 30px 'Bangers',cursive;
+    color: #22313F;
+    text-shadow: 2px 2px #81F7F3;
+}
+.concept-description {
+    color: black;
+    font: bold 22px 'Courgette', cursive;
+    text-align: center;
+    text-shadow: 1px 1px #E6F8E0;
+}
+.title {
+    background-image: url(images/trans33.png);
+    background-color: #E08283;
+    height: 20%;
+    padding: 25px;
+    border: 3px solid black;
+    text-align: center;
+    color: #F5F6CE;
+    font:bold 50px 'Alex Brush',cursive;
+    text-shadow: 4px 4px #610B21
+}
+.css{
+    color: #0431B4;
+    text-decoration: underline;
+}
+.borders{
+    color: #B40404;
+    text-decoration: underline;
+    font:bold;
+}

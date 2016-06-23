@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>Garima's notes</title>
+		
+		<link href='https://fonts.googleapis.com/css?family=Courgette|Niconne|Bangers|Alex+Brush'  rel='stylesheet' type='text/css'>
+		
+		<link rel="stylesheet" type="text/css" href="style1.css" >
+	</head>
+
+
+	<body>
+		<div class="title">
+			Basics of Html, Css and Programming<br>
+				by: Garima Aggarwal
+		</div>	
+		<div class="stage" > Some  basic  Concepts  of  the  Web  and  HTML
+			<div class="concept" >
+				<div class="concept-title">What is the World Wide Web(WWW)?</div>
+				<div class="concept-description">			
+					The WWW is basically a bunch of computers connected together
+					These computers can communicate that is share information,pictures,videos etc with each other through internet.
+					It is simply called Web.
+					It came up in early 1990's and contains about 30 billion pages.
+					The Web is a collection of many WEB PAGES which are actually HTML documents.It glues everything on the web-
+					IMAGES,TEXTS,VIDEO,MEDIA etc.
+					HTML stands for HYPER TEXT MARKUP LANGUAGE	
+					Hyperlinks are used to communicate between different web pages
+				</div>		
+			</div>		
+
+			<div  class="concept">
+				<div class="concept-title">How the web works?</div>
+				<div class="concept-description">			
+					When the user (with a computer and a browser) opens a website,the browser makes request to the internet.
+					 The internet further requests the server using the HTTP .
+					 The server finds the appropriate HTML document and sends it back to the 
+					user's computer where a web browser interprets the page and displays it on the user's screen as shown in the pic below:<br>
+					<img src="images\web.png" alt="how the web works">		  	
+				</div>
+			</div>
+
+			<div class="concept">
+				<div class="concept-title">What is HTML?</div>
+				<div class="concept-description">				
+					 HTML stands for HYPER TEXT MARKUP LANGUAGE
+					 Its text content describes all that we see
+					 Markup decides what everything looks like
+					 HTML document contains refrences/links to other documents like images,video,other web pages etc.
+					HTML is made up of elements 	
+				</div>
+			</div>
+
+
+			<div class="concept" >
+				<div class="concept-title">What are the Tags in HTML?</div>
+				 <div class="concept-description">
+				 	HTML documents are made up of elements.
+					(start of tag using triangular brackets )tag content (end of tag using triangular brackets and / ) = HTML element 
+				 	HTML tags tell the browser the type of elements 
+				 	Except for void tag,Once a tag is started,it has to be closed otherwise its effect will be seen on all the following elements<br>
+				 	FOR EXAMPLE:	<br>				
+					 	<code><b>Bold tag</b></code><br>
+						<code><em>Emphasis tag</em>.</code><br>
+						<code><u>Underline tag</u></code><br>						
+				 </div>
+			</div>
+
+			<div class="concept">
+				<div class="concept-title">What are HTML attributes ?</div>
+				<div class="concept-description">
+					Attributes provide additional information about an element
+					Attributes are always specified in the start tag.
+					Attributes come in name/value pairs like: name="value"
+					for example:
+						The href=" "  attribute in anchor (a) tag provides the hyperlink <br>
+						The src(source) ="url" attribute in image tag provides the file path of the image<br>
+						The alt="text" attribute in image tag provides an alternate text if the image is not displayed <br>								
+				</div>
+			</div>
+			
+			<div  class="concept">	
+				<div class="concept-title"> What are void tags?</div>
+				<div class="concept-description">
+					Tags which don't need to be closed are void tags.<br>For Example br tag is a void tag 		
+				</div>
+			</div>
+
+			<div class="concept" >	
+				<div class="concept-title"> How are pages linked?</div>
+				<div class="concept-description">
+					pages are linked using Hyperlinks with the help of a (anchor) tag.The href attribute is used to give the url.<br>
+					for example <a href="www.google.com">Link to google </a>
+				</div>
+			</div>
+
+			<div class="concept">	
+				<div class="concept-title">  Why are Computers Stupid?</div>
+				<div class="concept-description">
+					Computers are stupid because they blankly follow the instructions given to them.<br>They <b class="bold"> Do Not Rectify </b> the mistakes made by 
+					the programmer themselves.Computers interpret the instructions as such						
+				</div>
+			</div>			
+			
+			<div class="concept">	
+				<div class="concept-title">What is the difference between inline tags and block tags? </div>
+				<div class="concept-description">
+					Inline tags are written along with the text.They don't create any separate block.They are just texts For Example,br tag is written 
+					at the end of line Br tag means end of linr.When written between text,the following text after the tag wraps up in the next line<br>
+					b,em ,img are inline tags<br>
+					Block tags create a separate invisible block of text .These boxes can have hheight and width also
+					<br>for example: p tag
+									<br>
+						............<br>
+						. text     .<br>
+						. text     .<br>
+						. text     .<br>
+						. text     .<br>
+						............<br>						
+				</div>
+			</div>
+
+			<div class="concept">			
+				<div class="concept-title"> What are the whitespace tags? </div>
+				<div class="concept-description">
+					Whitespace tags are used to marks end of line or separate out a segment of text.<br>
+					When an HTML page is created,no matter how many whitespaces are given all of them are created into a single white space
+					<br>
+					for example:
+					br tag and p tag
+				</div>
+			</div>
+
+			<div class="concept">	
+				<div class="concept-title">What are container tags?</div>
+				<div class="concept-description">
+					Span & Div are container tags<br>
+					Span is inline while Div is block type tag.
+					<br>
+					Div tag behaves like paragraph tag.
+					various arrtributes can be given to Span and Div<br>
+					They contain text.
+				</div>
+			</div>
+		</div>
+
+		<div class="stage"> Creating  A  Structured  Document  With  HTML
+			<div class="concept">	
+				<div class="concept-title">Why Start with HTML and CSS?</div>
+				<div class="concept-description">		
+					Any Code that is written,Changes made are visible automatically .
+					When websites are created,they give a medium to share knowledge
+				</div>
+			</div>
+					
+				
+			<div class="concept">
+				<div class="concept-title">How to think like a FRONT END WEB DEVELOPER</div>
+				<div class="concept-description">
+					Think of the website as a home 
+					<br>
+					HTML-HTML files are like the structure <br>
+					for Example:<br>
+					Where are the walls,kitchen,doors etc<br>
+					HTML is the Language,Syntax rules of the web<br>
+					CSS-CSS files are the style of your house,What colour are the walls etc<br>
+					CSS is the use of specific syntax and rules to change how elements look on the page eg: colour,font etc<br>
+					Javascript-javascript files are the interactive components like door opener,TV remote etc<br>
+					DOM-Standard convention for representing and interacting with HTML elements<br>				
+				</div>
+			</div>
+			
+
+
+			<div class="concept">
+				<div class="concept-title">Imporatnce of DOM</div>
+				<div class="concept-description">
+				
+					Basic word in a HTML document is a tag.browser turns html tags into elements that form a TREE like structure .It knows how to do that 
+					because of DOCUMENT OBJECT MODEL that is DOM<br>
+					each element creates an element in the dom 
+				</div>
+			</div>
+
+			<div class="concept">
+				<div class="concept-title">BOXES,BOXES ,BOXES EVERYWHERE</div>
+				<div class="concept-description">
+					On a web page anything may seem to be circular,triangular or irregular in shape but it is actually all in a box :
+					<img src="images\box1.png" alt="the box model">
+				</div>					
+			</div>
+
+			<div class="concept" >
+				<div class="concept-title">Tree like structure of the page</div>
+				<div class="concept-description">
+					The "tree-like structure" comes from the fact that HTML elements can have other elements inside of them. You can draw this 
+					relationship like a family tree.Parent class has multiple children.
+					In a browser, this structure shows up as a series of nested boxes. There are boxes inside of boxes inside of boxes, and so on...<br>
+					<img src="images\tree.png" alt="tree like structure of the page">
+				</div>
+			</div>		
+
+			<div class="concept">
+				<div class="concept-title">Importance of boxes and indentation</div>
+				<div class="concept-description">
+					By thinking in terms of boxes we can easily rearrange things if we decide to give user's a different experience.<br>
+					<br>we define boxes using div tag.Each box and sub box corresponds to div tag<br>
+					<br>each div tag should be marked to style later 
+					<br>In HTML document we see a wave of changing indentations going up and down the left side of the document. The more indented an 
+					element is, the more deeply nested it's corresponding "box" is.		
+				</div>
+			</div>
+
+
+			<div class="concept">	
+				<div class="concept-title">Text Editors</div>
+				<div class="concept-description">
+					Coders use text editors which can make programming easier.Some of these automatically generate the tag/code the author is typing thus 
+					reducing time and effort<br>
+					sublim text is such example 
+					<br>
+				</div>
+			</div>
+		</div>
+
+		<div class="stage">Styling  using  CSS 
+			<div class="concept">	
+				<div class="concept-title">	Using CSS</div>
+				<div class="concept-description">			
+					CSS stands for cascading style sheets
+					CSS is a powerful languages to add style to web pages
+					the most important fact is that reusable code can be created using classes ids etc
+					CSS provides numerous properties to modify the web page making it more attractive<br>				
+					some examples:<br>
+					background-color
+					<br>font-family
+					<br>background-img
+					<br> and MANY MANY MORE
+				</div>
+			</div>
+
+			<div class="concept">	
+				<div class="concept-title">Creating Reusable Code Using Various Selectors</div>
+				<div class="concept-description">
+					various types of classes and ids can be given to different elements which need similar type of styling
+					Reusable code is important because it provides a standard design pattern,framework.It also saves time and effort<br>
+					some of the selectors are:
+					<br>					
+						if a class is given<br>
+						<code>						
+						.classname{ <br>
+						properties;<br>
+						}			
+						<br>
+						if an id is given<br>		
+
+						#idame{ <br>
+						properties;<br>
+						}						
+						<br>
+						if tag is used directly						
+
+						tagname{ <br>
+						properties;<br>
+						}   	
+					</code>							
+				</div>
+			</div>
+
+		 	<div class="concept">
+				<div class="concept-title">Methods to implement CSS</div>
+				<div class="concept-description">
+					CSS can be added in 3 ways:<br>
+					<ol>
+					<li><span class="css">Inline method</span> :style is added along with the tags</li>
+					<li><span class="css">Internal method</span>:Style is written is the head</li>
+					<li><span class="css">External method</span>:Styles are written in a separate file stored with the extension .css and linked to the html</li>
+				</ol>
+				</div>
+			</div>		 
+
+			<div class="concept">
+				<div class="concept-title">The Box Model</div>
+				<div class="concept-description">		
+					margins,borders,padding and content make the box model 
+				<ul>
+					<li><span class="css">Content:</span>is present at the center.other layers protect it so that other items on the page do not overlap</li>
+					<li><span class="css">padding:</span> It clears around the content.It is affected by the background colour around the box</li>
+					<li><span class="css">Border: </span>It surrounds padding and content.it inherits colour properties of the box</li>
+					<li><span class="css">margins:</span>It is the outermost layer.It has no background color and is transparent,It is the space between boxes</li>
+				</ul>
+				</div>
+			</div>
+			
+			<div class="concept">	
+				<div class="concept-title">All About the Borders</div>
+				<div class="concept-description">	
+				<span class="borders">By default the size of element = border+padding+Content space</span>
+				<br>
+					*{
+			
+				<br>
+				box-sizing:border-box;
+				<br>
+				}
+				<br>
+				can be used to find the element size<br>
+				By just setting the size of the box,no matter what the border and padding is the box size will remain the same.<br>
+				Browser Specific Prefixes have to be added to make sure that all browsers are able to display this
+							<br>
+						<span class="borders">BROWSER SPECIFIX PREFIXES:</span>
+						<br>
+							webkit <br>
+							moz<br>
+							ms <br>			
+					</div>
+				</div>
+
+			<div class="concept">		
+				<div class="concept-title">Very Important</div>
+				<div class="concept-description">
+				 	If the size is set in percentage,the size will change depending on how big the screen is.If the box size is in pixels
+					it will take exactly that size and will not change according to the screen
+				</div>
+			</div>
+
+			<div class="concept">
+				<div class="concept-title">Positioning of the Elements</div>
+				<div class="concept-description">
+					<span class="css">FLEX BOX LAYOUT</span><br>
+					flex Box layout provides an efficient way layout line and distributor space among items in a container<br>
+					if several items are to be placed next to each other,the display attribute of parent container should be set to value FLEX
+				</div>
+			</div>
+
+			<div class="concept" >	
+		 		<div class="concept-title">Cool web sites to get more HTML and CSS hacks</div>
+		 		<div class="concept-description">				
+					<br>http://www.dtelepathy.com/ for colour palette
+					<br>http://tympanus.net/codrops/
+					<br>w3schools
+					<br>https://css-tricks.com
+				</div>					
+			</div>
+
+			<div class="concept">
+				<div class="concept-title">Code Test Refine</div>
+				<div class="concept-description">		 			
+				 	<br>look for natural boxes
+				 	<br>look for repeated styles and semantics
+				 	<br>write your html
+				 	<br>apply styles biggest to smallest
+				 	<br>fix things
+				 	<br>repeat 3,4,5
+				</div>
+			</div>
+		</div>
+
+		<div class="stage">Structured  Data-Lists, Strings  and  Loops
+			<div class="concept">
+				<div class="concept-title">What is a Program?</div>
+				<div class="concept-description">
+					A program is a set of instructions which tell the computer what to do.A computer can execute many steps in just fraction of seconds.We can execute billions of instructions in one second using a computer program.A program needs to be precise sequence of steps
+				</div>
+			</div>
+
+			<div class="concept">
+				<div class="concept-title">What is Python?</div>
+				<div class="concept-description">
+
+					PYthon is a high level language.Instead of writing the program directly on the computer,the program will be an input to the python program which runs on the computer.
+					<span class="css">PYTHON IS CALLED AN INTERPRETER.</span>It runs our programs,interprets them and executes the programs that we write in Python language by returning a program in a language that the computer and the user can understand quickly. 
+				</div>
+			</div>
+
+			<div class="concept">
+				<div class="concept-title">Why we need to invent new languages to program computers rather than using natural languages like English?</div>
+				<div class="concept-description">
+					<ol>
+					<li> <span class="css">AMBIGUITY:</span> Different people interpret same language differently,but in a computer we want it to interpret the same program the exact same way that the programmers intended.</li>
+					<li><span class="css">VERBOSITY:</span>To write a program, we need to describe exactly what the computer should do in a very precise sequence of steps.Using a natural language for such large description will require a huge amount of text.WITH PYTHON,WE CAN DESCRIBE IN A VERY PRECISE STEP BY STEP WAY</li>
+				</div>
+			</div>
+
+			<div class="concept">
+				<div class="concept-title">What is Bakus-Naur form? </div>
+				<div class="concept-description">
+					BACKUS-NAUR FORM is the Python grammar for Arithematic expressions<br>
+					expression operator expression is called recursive definition.Expression can be numbers and terminals.
+				</div>
+			</div>
+
+			<div class="concept">
+				<div class="concept-title">What is the difference between a compiler and an interpreter?</div>
+				<div class="concept-description">
+					A compiler does all the worl once and then runs the program whereas an iterpreter reads,executes,runs etc all simultaneously
+				</div>
+			</div>
+
+			<div class="concept">
+				<div class="concept-title">What is a variable?</div>
+				<div class="concept-description">
+					A variable is a name given to a memory location to store some data.Variable name can be any sequence of alphabets,numbers etc as long as it starts with a letter.Their values can be varied at any time.
+				</div>
+			</div>
+
+			<div class="concept">
+				<div class="concept-title">What are comments ?</div>
+				<div class="concept-description">
+					Comments are statements written after "#" sign.They are ignored by the Python interpreter but are useful for a programmer to understand.If someone other than the progrmmer is reading the code,he can understand the code better with help of comments.
+				</div>
+			</div>
+
+			<div class="concept">
+				<div class="concept-title">What are Strings?</div>
+				<div class="concept-description">
+					A string is traditionally a sequence of characters,either as constants or some kind of variable.In Python,strings are immutable.A String is a data type and is implemented as array of bytes
+				</div>
+			</div>
+
+			<div class="concept">
+				<div class="concept-title">Important Properties of Strings</div>
+				<div class="concept-description">
+					<ol>
+					<li>If string starts with single quote it ends with same..if double quotes same end</li>
+					<li>Print hello will give error
+					but if hello is a variable and not a string it will print the value of the variable 
+					also " 'string data" is a valid string or vice a versa with the quotes</li>
+					<li>Strings can be concatenated that is two or more strings can be joint using '+ 'sign and form a new string,It dosen't ad spaces or anything automatically</li>
+					<li>Concatinating a string and a number will give error</li>
+					<li>We can multiply numbers and strings,
+					for eg:
+					print '!'*4
+					will print: !!!!</li>
+					<li><span class="css">String indexing:</span>
+					used to extract sub parts of a string<br>
+					"string name"[expression]
+					eg:
+					name='udacity'
+					print name[0]
+					will print u<br>
+					or:
+					'udacity'[0] will give 'u'
+					indexing starts from 0s
+					'udacity'[1+1] gives 'a'
+					index -1 gives last character 
+					-2 gives next to last character and so on</li>
+					<li><span class="css">Selecting a substring:</span>
+					<code>string[expression(start):expression(end)]</code>
+					this gives a substring of characters from the string starting from position start and ending with position end-1
+					also strring[3:3]
+					prints nothing
+					if we leave one of the sides of colon empty:
+					string[4:] will print all characters from inex 4 onwards uptill end.
+					string[:6] will produce all characters upto index 5 starting from begining
+					if we leave both sides of colon empty it will give the string from beginng to end i.e. the complete string itself
+					eg: string[:]</li>
+				</ol>
+				</div>
+			</div>
+
+			<div class="concept">
+				<div class="concept-title">Find Operation in Strings</div>
+				<div class="concept-description">
+					1) <span class="css">method to find a sub string in a big string:</span>
+						find is a method which means it is a built in procedure<br>
+						syntax: 
+							string.find(string to be fouund)<br>
+						the result will be the position of the first occurrence of the string.a string may be present multiple times
+						if the sub string is not found anywhere it will return -1<br>
+
+					 2) there might be other occurrences of the same sub string.if  we pass an extra parameter i.e. number it will give the position of the sub string immediately after the 
+						occurrences of the sub string first time after the position given by the parameter number<br>
+						syntax: 
+						<code>string.find(string to be fouund,number)</code><br>
+						if we pass 0 it will return the position of first string only
+						-1 will be returned if no string is found after the given parameter number<br>
+
+					3) triple quotes can be used to make a string of multiple lines<br>
+						eg:<br>
+						<code>
+						"""<br>
+						This is an example<br>
+						of creating strings <br>
+						using triple quotes<br>
+						"""<br></code>
+					 <span class="css">index method:</span>
+					 <code>list.index(element to be found)</code> returns the index of the list whose value is the same as required element 
+					</div>
+				</div>
+
+			<div class="concept">
+				<div class="concept-title">All About Methods/Procedures/Functions</div>
+				<div class="concept-description">
+					1) <span class="css">How to use functions/procedures?</span><br>
+						procedure name(list of inputs called arguments or operands separated by a ,) <br>
+						syntax:
+							procedure name(input1,input2....)<br>
+					2) return means jumping back to the procedure<br>
+					3) <span class="css">Making or defining a procedure:<br></span>
+						Functions are made by starting a line of code with the keyword def and then giving a function name followed by the function parameters in parentheses. These parameters will eventually be replaced by actual values when the function is used (called).<br>
+						syntax:
+							<code>def procedure_name(parameter1/input1,parameter2/input2.....)</code>
+						we are actually making a procedure using this.we are defining set of statements which will perform certain task on the inputs<br>
+					4)<span class="css">How do functions help programmers avoid repetition?</span><br>
+						Functions are tools that programmers can create and reuse forever! Once you've defined a function once, you never have to define it again.By defining a function and passing inputs we can avoid repition of same code for different set of values.All we need to do is call the function and pass the values as arguments.<br>
+					5)<span class="css">What happens if a function doesn't have a return statement?</span><br>
+						if a function does not have a return statement it will do nothing.When the function is called it will give no value.The return keyword tells Python exactly what the function should produce as output.
+				</div>
+			</div>
+
+			<div class="concept">
+				<div class="concept-title">Lists & Lists v/s Strings</div>
+				<div class="concept-description">
+					<span class="css">LISTS</span>:are collection of variables and constants of same of different data types<br>
+					<span class="css">List v/s Strings</span><br>
+					1) In a list elements can be of any data type but in strings they are always character type<br>
+					2) string="characters in single or double quotes"
+						list=['element 1','element 2'....]<br>
+
+					3) Indexing:
+					string[0]=c
+					list[0]=element 1<br>
+
+					4) example: st='abcdefg'
+					      l=['a','b','c','d','e','f','g']
+					      st[2:4]='cd' that is a string
+					      but
+					      l[2:4]=['c','d'] which is a list<br>
+					 5) lists are mutable,strings are not<br>
+					 	example:
+					 		l=[1,2,3,4,5]
+					 		l[2]=9
+					 		therefore l=[1,2,9,4,5]
+					 </div>
+				</div>
+
+			<div class="concept">
+				<div class="concept-title">Nested Lists</div>
+				<div class="concept-description">
+					Lists can be nested i.e. a list can contain multiple lists
+					We can access elements of the main list using indexing.Since sub lists are also lists,we can access their elements also
+				</div>
+			</div>
+
+			<div class="concept">
+				<div class="concept-title">Mixed Up Lists</div>
+				<div class="concept-description">
+					lists can contain different data type elements:
+					for example :<br>
+					<code>
+						mixed=[1,2,["apple","banana,23,34"]]
+						we can access the member of sub list as:
+						mixed[2][2] This will give 23
+					</code>					
+				</div>
+			</div>
+
+			<div class="concept">
+				<div class="concept-title">Mutation</div>
+				<div class="concept-description">						
+					We can change the values of a list after we have created it
+					in strings,we have to create a new string to replace the old one or concatenate two strings but in Lists we can simply replace the element to be changed using indexing.
+					In lists,if one list is assigned to another then both of them refer the same object Therefore,any change made in the second list(copied) will also be visible in the first list(ORIGINALS)<br>
+					IMPORTANT:<br>
+					a) Once an object is mutable,we have to worry about the variables refering to the same objects.<br>
+					b)strings are immutable,we can not change any element of the string even using indexing
+				</div>
+			</div>
+
+			<div class="concept">
+				<div class="concept-title">Aliasing</div>
+				<div class="concept-description">
+					When two or more variables refer to the same object,then any change made in the object ,then the change will come in all the variables
+					example:
+					p=[1,2,3,4],
+					q=p,
+					here both p and q refer to same list
+					if we change a cee like q[2]=7
+					then the object changes 
+					p and q both =[1,2,7,4],
+					BUT:
+					if we do an assignment like p=["a","b","c"]
+					This will create a new object to which p refers.q will not be affected
+				</div>
+			</div>
+
+			<div class="concept">
+				<div class="concept-title">List Operations </div>
+				<div class="concept-description">
+					1)<span class="css">Append:</span>
+						list.append(element to be added)
+						append is a function or method of lists.Append is not creating a new list,it is mutating an old list by adding an element at its end<br>
+					2)<span class="css">+ operation:</span>
+						+ operator works like concatination 
+						example:
+						[1,2]+[3,4]=[1,2,3,4]<br>
+					3)<span class="css"> len operator:</span>
+						len is short form for length. len(list) will give the length of the list
+						for example:
+						len([0,1])=2<br>
+					<span class="css">IMPORTANT EXAMPLE:</span><br>
+						p=[1,2],
+						q=[3,4]
+						len(p+q)=4,
+						p+q=[1,2,3,4],
+						BUT
+						p.append(q)=[1,2,[3,4]]
+						therefore len(p.append(q))=3
+					</div>
+				</div>
+
+			<div class="concept">
+				<div class="concept-title"> Making Decisions</div>
+				<div class="concept-description">
+				1)<span class="css"> Comparison operators can be used as:</span>
+				operand 1 comparison operator operand 2<br>
+				less than,greater than,equal etc are examples of comparison operators
+				The output is not a number but a boolean value True or False<br>
+				2)<span class="css"> The if statement:</span><br>
+					syntax:
+						<code>if test expression:<br>
+							block<br>
+						next statement<br>
+					</code>
+					The block contains the statements/instructions to do when the test expression is True.
+					the next statement that is not indented will be evaluated no mater the test case is true or not<br>
+				3)The "or" construct<br>
+					evaluates an expression to check two conditions<br>
+					returns:
+					true for true and true,
+					true for true and false,
+					false for false and false,
+					expression 1 or expression2<br>
+					if expression1 is true expression2 is not evaluated and True is returned,
+					if expression2 is not true  expression2 is evaluated and True is returned if expression2 is true,
+					if expression2 is not true  expression2 is evaluated and False is returned if expression2 is False
+				</div>
+			</div>
+
+			<div class="concept">
+				<div class="concept-title">Proramming is cool</div>
+				<div class="concept-description">
+			 		Once you (or anyone else) has coded something once, you can use that thing again later as a tool!
+				</div>
+			</div>
+
+			<div class="concept">
+				<div class="concept-title">Loops</div>	
+				<div class="concept-description">
+					Its a way to do things do over and over again<br>					
+					 While loop:<br>
+					syntax:<br>
+					 <code>
+					 	while test expression:<br>
+							block<br>
+					</code>
+					with while loop ,block can execute any number of times.It  keeps going as long as the test case is true
+					the test expression is tested,if it is true,Python goes to the block.It tests the expression again,if it is true it wil go to the block again otherwise break out of the loop
+				</div>
+			</div>
+
+			<div class="concept">
+				<div class="concept-title">Break Statement</div>
+				<div class="concept-description">
+					Break statement is used to stop the loop if a particular condition is met,even while test condition of the loop is true<br>
+					syntax:<br>
+					<code>
+					 while test expression:<br>
+						block<br>
+						if break test:<br>
+						break
+					</code>
+				</div>
+			</div>
+
+			<div class="concept">
+				<div class="concept-title">For Loop</div>
+				<div class="concept-description">
+					A for loop is used to perform iterative operatios that is to repaeat a task multiple times.<br>
+					1) <span claass="css">Structure of for loop:</span>
+						<code>for name in list:<br>
+							block</code> 
+						for each element in a list,we are going to assign it to the name and evaluate the block
+						example:<br>
+						<code>def printall(p):
+							for e in p:
+								print e</code>
+						This function assigns the value of each element in p to e at a time and is printed
+					</div>
+				</div>
+
+			<div class="concept">
+				<div class="concept-title">How To Solve Problems</div>
+				<div class="concept-description">
+					<span class="css">PYTHONIA'S GUIDE TO SOLVE ALL PROBLEMS IN THE KNOWN COMPUTATION GALAXY:</span><br>
+					STEP 0) Don't Panic<br>
+					STEP 1) Think/Ask about the inputs<br>
+					STEP 2) Think about the output<br>
+					STEP 3) Work throug some examples by hand<br>
+					STEP 4) Simple mechanical solution <br>
+					TIP:
+						DON'T OPTIMIZE PREMATURELY.THE KEY IS SIMPLICITY
+					<br>
+					Make sure you understand the problem.
+					The problem with start writing code first is that we may end up code that dosn't work properly which can be frustrating or the code that dosn't actually work.
+					<br>
+					FOR EXAMPLE: In a program we have to calculate the present age in number of days,we will proceed as:<br>
+					STEP 1) <span class="borders">Inputs:</span> 2 dates
+							What is set of valid inputs?
+							As a good defensive programmer we must check that the second date is always greater tham the first date
+							it is a good practice to check that the dates are in the Georgian Calender <br>
+					STEP 2) <span class="borders">Output:</span> return the number of days between the two dates<br>
+					STEP 3) <span class="borders">Solving Problem:</span>
+							Understand the relationships using examples<br>
+					STEP 4) <span class="borders">Starting to form the solution:</span><br>
+							1)We will write the function nextDay(yr,month,date) to get next day for simple case or isLeapYear(year) to check if the year is leap or not<br>
+							2)The next step is to define daysBetweenDates(y1, m1, d1, y2, m2, d2) to give approximate answers using nextDay procedure<br>
+							3)Write pseudocode<br>
+							4)Write helper function<br>
+					STEP 5) Adding assertions for invalid inputs
+				</div>
+			</div>
+
+			<div class="concept">
+				<div class="concept-title">Debugging</div>
+				<div class="concept-description">
+					Errors in programs are called bugs.Sometimes the error is obvious as it makes the program crash and when it crashes it usually gives some kind of error message.
+					When a Python code crashes it gives back a message "Traceback".<br>
+					TRACEBACK:<br>
+						Traceback tells you what line it crashed on and what file was running and how it got there.The information it gives you especially the line number and the function name.Even if the root of the problem is not in that line,it is somewhere upstream that line.We can look up the error message to see how to rectify it.
+					<br><span class="borders">ONE APPROACH TO DEBUGGING IS:</span><br>
+					1) Comment out the original code<br>
+					2) Copy and paste the sample code and make changes in it according to the output required<br>
+					3) When the desired output is achieved,make ammendments in the original code and uncomment it<br>
+					<span class="borders">IMPORTANT:</span><br>
+					Always remove the debugging print statement.
+					To comment out a statement just put a hash mark(#) before the statement or make it into a large string by using triple quotes.Software programmers use version control systems like GIT,which are super powerful undo systems that let you navigate to any version of the code that have multiple modified version and share them and so on
+					<br>
+					<span class="borders">DEBUGGING STRATEGY RECAP:</span><br>
+					1)<span class="css"> Examine error messages when programs crash:</span>
+					The last line of Python Tracebacks will tell you what went wrong. Reading backwards from there will tell you more about where the problem occurred.<br>
+					2)<span class="css">Work from example code:</span>
+					If your modified code doesn't work, comment it out and do step-by-step modifications to the example code until it does what you want.<br>
+					3)<span class="css">Make sure examples work:</span>
+					Just because you find example code doesn't mean it will work in your system. Check the example code you're using to make sure it behaves the way you expect.<br>
+					4)<span class="css">Check (print) intermediate results:</span>
+					When your code doesn't crash, but doesn't behave as expected, add print statements to your program to see where in the code things stop behaving correctly.<br>
+					5)<span class="css">Keep and compare old versions:</span>
+					When you have a working version of your code, save it before you add to the code. This will give you something to go back to if you introduce too many new bugs<br>
+					DEBUGGING IS ACTUALLY A SCIENTIFIC APPROACH OF EXAMINING THE CODE TO DISCOVER UNEXPECTED RESULTS
+				</div>
+			</div>
+		</div>
+
+	</body>
+</html>
